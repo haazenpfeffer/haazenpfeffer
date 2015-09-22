@@ -1,0 +1,78 @@
+/********************************
+Two-Column Layout
+*********************************/
+@media screen and (min-width: 480px) {
+#layout1 {
+	width: 50%;
+	float: left;
+}
+#layout1b {
+	width: 40%;
+	float: right;
+
+}}
+
+/********************************
+Portfolio Pages
+*********************************/
+@media screen and (min-width: 660px) {
+#portfolio li {
+	width: 28.33333%;
+	float:left;
+		
+	}
+	
+#gallery li {
+width: 28.333333%;
+
+}	
+	
+ #portfolio li:nth-child(4n) {
+	clear:left;}
+	
+
+
+/********************************
+About Page
+*********************************/
+.profile-photo {
+ float: left;
+ border: none;
+ padding: 20px 20px 20px 5px;
+ }
+ 
+
+
+/********************************
+Header
+*********************************/
+nav {
+	background: none;
+	float: none;
+	font-size: 1.45em;
+	text-align: center;
+	}
+	
+#logo {
+	float: none;
+	margin-left: 5%;
+	text-align: center;
+	width: 45%;}
+	
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 0.825em;
+	margin-bottom: 0;}
+	
+header {
+	border-bottom: 5px solid #599868
+	margin-bottom: 0;
+
+}
+	
+	
+}
+

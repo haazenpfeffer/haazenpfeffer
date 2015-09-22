@@ -1,0 +1,6 @@
+Order deny,allow
+DirectoryIndex index.html
+DirectoryIndex index.php index.html index.htm
+# BEGIN WordPress
+
+# END WordPress
