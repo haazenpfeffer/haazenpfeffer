@@ -3,12 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>Kyle Haas | Computer Genius / Bio-Scientist</title>
+ 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <link rel="stylesheet" href="css/normalize.css">
 	<link href='http://fonts.googleapis.com/css?family=Press+Start+2P|Open+Sans:400italic,700italic,700,300,800,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/preload.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+
   </head>
+  
+  
+  <!-- Preloader Start-->
+<script type="text/javascript">
+	//<![CDATA[
+		$(window).load(function() { // makes sure the whole site is loaded
+			$('#status').fadeOut(); // will first fade out the loading animation
+			$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+			$('body').delay(350).css({'overflow':'visible'});
+		})
+	//]]>
+</script>
+  
+  <!--Webpage Body -->  
+  
   <body>
     <header>
      <a href="index.html" id="logo">
@@ -17,8 +36,9 @@
      </a>
       <nav>
       	<ul>
-      		<li> <a href="services.html">Click Here For Computer Tech Support!</a></li>
-      		<li> <a href="blog/index.php"> Click Here To Check Out My Tech Blog!</a></li>
+
+      		<li> <a href="blog/index.php">Tech Advice Blog</a></li>
+      		<li><a href="blog/?page_id=18">Tech Support Services and Custom PCs</a></li>
       	</ul>
         <ul>
           <li><a href="index.html" class="selected">Home</a></li>
@@ -36,6 +56,13 @@
     <div id="wrapper">
   		<section>
           <ul id="portfolio">
+            
+              <!-- <li>
+              <a href="services.html">
+                  <img src="img_pv/mypc_pv.jpg" alt="">
+                  <p>Check out my services page if you are interested in what I can do for your home or small business.</p></a> 
+             </li>	-->
+            
             <li>
               <a href="nature.html">
                   <img src="img_pv/bee_pv.jpg" alt="">
@@ -44,7 +71,7 @@
             <li>
               <a href="photographs.html">
                   <img src="img_pv/firework_pv.jpg" alt="">
-                  <p>Fourth of July fireworks. Want more? Check out my photographs page.</p></a>
+                  <p>Check out my high-resolution photographs!</p></a>
             </li>
             <li>
               <a href="retroart.html">
@@ -54,12 +81,12 @@
             <li>
               <a href="artwork.html">
                   <img src="img_pv/fractal_pv.jpg" alt="">
-                  <p>I've also used fractal generators to create artwork, check out my digital art page for more.</p></a>
+                  <p>I have also used fractal generators to create artwork, check out my digital art page for more.</p></a>
             </li>
             <li>
               <a href="vgwalls.html">
                   <img src="img_pv/metroid_pv.jpg" alt="">
-                  <p>And I've also spent time making high-resolution wallpapers of retro videogames; you can find more on my vg wallpapers page.</p></a>
+                  <p>I have captured high-resolution wallpapers of retro videogames; you can find more on my vg wallpapers page.</p></a>
             </li>
             
                 
@@ -76,7 +103,10 @@
     </div>
   </body>
 
-
+<!-- Preloader End -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
 
 
 
@@ -85,4 +115,3 @@
 
 
 </html>
-

@@ -1,0 +1,276 @@
+/********************************
+General
+*********************************/
+body {
+	font-family: 'Open Sans', sans-serif;
+
+}
+#wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 5%;
+  }
+  
+a {
+    text-decoration: none
+}
+
+
+}
+
+
+h3 {
+margin: 0 0 1em 0;
+float: center;
+
+}
+
+/********************************
+Heading
+*********************************/
+
+header {
+float: left;
+margin: auto;
+padding: 0 0 10px 0;
+width: 100%;
+text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+}
+
+
+#logo {
+	text-align: center;
+	margin: 0;
+
+}
+
+h1 {
+font-family: 'Press Start 2P', sans-serif;
+font-size: 1.75em;
+font-weight: normal;
+line-height: 0.8em;
+margin: 0 0;
+}
+
+h2{
+font-family: 'Press Start 2P', sans-serif;
+font-size: 0.75em;
+margin: 8px 0 0 0;
+font-weight: normal;
+
+}
+
+h3{
+
+}
+
+
+/********************************
+Navigation
+*********************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin:  0 0 0;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+margin: 5 0 0 0;
+text-align: center;
+}
+
+nav li {
+display: inline-block;
+text-align: center;
+}
+
+nav a {
+font-weight: 800;
+padding: 8px 5px;
+}
+
+
+/********************************
+Page Portfolio
+*********************************/
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li 
+{
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}
+
+#gallery li a p {
+	margin:0;
+	padding:5%;
+	font-size:0.75em;
+	color:#555;
+
+}
+
+
+#portfolio {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#portfolio li 
+{
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}
+
+#portfolio li a p {
+	margin:0;
+	padding:5%;
+	font-size:0.75em;
+	color:#555;
+
+}
+
+
+
+
+
+
+
+/********************************
+Page About
+*********************************/
+.profile-photo {
+display: block;
+max-width: 150px;
+margin: auto;
+border-radius: 25px;
+
+}
+
+
+/********************************
+Page Contact
+*********************************/
+.contactinfo a {
+display: block;
+min-height: 20px;
+background-repeat: no-repeat;
+background-size: 20px 20px;
+padding: 0 0 0 30px;
+margin: 0 0 10px;}
+
+.contactinfo {
+list-style: none;
+margin: 0;
+padding: 0;
+font-size: 0.9em;
+
+}
+.contactinfo li.phone a{
+background-image: url('../img/phone.png');
+
+}
+.contactinfo li.mail a{
+background-image: url('../img/mail.png');
+}
+.contactinfo li.text a{
+background-image: url('../img/sms.png');
+}
+
+
+/********************************
+Colors
+*********************************/
+
+
+/* Site Body */
+body {
+background-color: #fff;
+color: #555;
+
+}
+
+a {
+	color: #6ab47b;
+
+}
+
+header {
+color: #2393a7;
+border:1px solid #aaa;
+border-radius:15px;
+
+background: -moz-linear-gradient(left, red, orange, yellow, green, 
+blue, indigo, violet);
+background: -webkit-gradient(linear, left center, right center, from(red), 
+color-stop(14%, orange), color-stop(28%, yellow), color-stop(42%, green), 
+color-stop(56%, blue), color-stop(80%, indigo), to(violet)); 
+background: -o-linear-gradient(left, red, orange, yellow, green, 
+blue, indigo, violet);
+background: -ms-linear-gradient(left, red, orange, yellow, green, 
+blue, indigo, violet);
+}
+
+h1, h2 {
+	color: #fff;
+
+
+}
+
+
+/*nav link color*/
+nav a, nav a:visited {
+	color: #fff;
+}
+
+/*selected nav link*/
+nav a.selected, nav a:hover {
+color: rgb(120, 120, 120);
+
+}
+
+
+/********************************
+Footer
+*********************************/
+
+footer {
+font-size: 0.75em;
+text-align: center;
+clear: both;
+padding-top: 50px;
+color: #ccc;
+}
+
+.social-icon {
+width: 25px;
+height: 25px;
+margin: 0 5px;
+}
+
+/********************************
+Pseudo Classes
+*********************************/
+
+a:active {
+	color: lightcoral;
+	}
+	
+* {
+	box-sizing: border-box;
+	margin:auto;
+	}
+	

@@ -3,12 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Kyle Haas | Computer Genius / Bio-Scientist</title>
+    <link href="css/lightbox.css" rel="stylesheet">	
     <link rel="stylesheet" href="css/normalize.css">
-	<link href='http://fonts.googleapis.com/css?family=Press+Start+2P|Open+Sans:400italic,700italic,700,300,800,400' rel='stylesheet' type='text/css'>
-    	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/responsive.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Press+Start+2P|Open+Sans:400italic,700italic,700,300,800,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.guestbook.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/preload.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
+          
+        <!-- Preloader Start-->
+<script type="text/javascript">
+	//<![CDATA[
+		$(window).load(function() { // makes sure the whole site is loaded
+			$('#status').fadeOut(); // will first fade out the loading animation
+			$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+			$('body').delay(350).css({'overflow':'visible'});
+		})
+	//]]>
+</script>
+  
+  <!--Webpage Body -->  
+  
   <body>
     <header>
      <a href="index.html" id="logo">
@@ -17,8 +34,9 @@
      </a>
       <nav>
       	<ul>
-      		<li> <a href="services.html">Click Here For Computer Tech Support!</a></li>
-      		<li> <a href="blog/index.php"> Click Here To Check Out My Tech Blog!</a></li>
+
+      		<li> <a href="blog/index.php">Tech Advice Blog</a></li>
+      		<li><a href="blog/?page_id=18">Tech Support Services and Custom PCs</a></li>
       	</ul>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -45,6 +63,10 @@
     </div>
   </body>
 
+<!-- Preloader End -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
 
 
 
